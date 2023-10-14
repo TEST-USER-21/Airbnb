@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+pillow = "*"
+django-countries = "*"
+django-seed = "*"
+psycopg2-binary = "*"
+psycopg2 = "*"
+djlint = "*"
+django-dotenv = "*"
+requests = "*"
+django-allauth = "*"
+google-auth = "*"
+google-auth-oauthlib = "*"
+google-auth-httplib2 = "*"
+django-widget-tweaks = "*"
+setuptools = "*"
+
+[dev-packages]
+flake8 = "*"
+black = "*"
+
+[requires]
+python_version = "3.11"
